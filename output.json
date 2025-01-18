@@ -1,0 +1,115 @@
+{
+    "categories": [
+        "APPETIZER",
+        "SPECIAL MENU",
+        "MAIN COURSE"
+    ],
+    "No.of.items": 15,
+    "items": [
+        {
+            "name": "ARTICHOKE SPINACH DIP",
+            "category": "APPETIZER",
+            "description": "A creamy, flavorful dip featuring artichoke hearts and spinach, a delightful appetizer.",
+            "price": "S1o",
+            "diet": "veg"
+        },
+        {
+            "name": "CHEESY PULL-APART BREAD",
+            "category": "APPETIZER",
+            "description": "A warm, cheesy pull-apart bread, perfect for sharing, with a soft and gooey interior.",
+            "price": "S11",
+            "diet": "veg"
+        },
+        {
+            "name": "HOT CORN AND CHEESE DIP",
+            "category": "APPETIZER",
+            "description": "A savory corn and cheese dip, brimming with flavor and perfect for a starter.",
+            "price": "s09",
+            "diet": "veg"
+        },
+        {
+            "name": "LOADED BAKED POTATO DIP",
+            "category": "APPETIZER",
+            "description": "A rich, loaded baked potato dip with a blend of creamy flavors and toppings.",
+            "price": "S08",
+            "diet": "veg"
+        },
+        {
+            "name": "SUN-DRIED TOMATO DIP",
+            "category": "APPETIZER",
+            "description": "A flavorful sun-dried tomato dip, offering a tangy and subtly sweet taste experience.",
+            "price": "S1o",
+            "diet": "veg"
+        },
+        {
+            "name": "NOODLES SPICY",
+            "category": "SPECIAL MENU",
+            "description": "Spicy noodles, with a tantalizing blend of spices and flavors.",
+            "price": "S10",
+            "diet": "Non-veg"
+        },
+        {
+            "name": "NOODLES SEAFOOD",
+            "category": "SPECIAL MENU",
+            "description": "Noodles with a delightful combination of seafood flavors and textures.",
+            "price": "S11",
+            "diet": "Non-veg"
+        },
+        {
+            "name": "NOODLES BARBEQUE",
+            "category": "SPECIAL MENU",
+            "description": "Noodles with a savory and sweet barbecue sauce, a satisfying dish.",
+            "price": "s09",
+            "diet": "Non-veg"
+        },
+        {
+            "name": "NOODLES BEEF",
+            "category": "SPECIAL MENU",
+            "description": "Noodles featuring tender beef, perfectly cooked and seasoned.",
+            "price": "S08",
+            "diet": "Non-veg"
+        },
+        {
+            "name": "NOODLES CHICKEN",
+            "category": "SPECIAL MENU",
+            "description": "Noodles cooked with tender chicken, a delectable and satisfying meal.",
+            "price": "S1o",
+            "diet": "Non-veg"
+        },
+        {
+            "name": "CARDAMOM MAPLE SALMON",
+            "category": "MAIN COURSE",
+            "description": "A flavorful salmon dish, featuring a combination of cardamom and maple syrup.",
+            "price": "S1o",
+            "diet": "Non-veg"
+        },
+        {
+            "name": "BURMESE CHICKEN CURRY",
+            "category": "MAIN COURSE",
+            "description": "A flavorful Burmese chicken curry, featuring unique spices and flavors.",
+            "price": "S1l",
+            "diet": "Non-veg"
+        },
+        {
+            "name": "FRIED CHICKEN SANDWICH",
+            "category": "MAIN COURSE",
+            "description": "A crispy fried chicken sandwich, a classic comfort food option.",
+            "price": "s09",
+            "diet": "Non-veg"
+        },
+        {
+            "name": "SICILIAN ROASTED CHICKEN",
+            "category": "MAIN COURSE",
+            "description": "A succulent roasted chicken, seasoned with Sicilian flavors, a delightful dish.",
+            "price": "S08",
+            "diet": "Non-veg"
+        },
+        {
+            "name": "DELICIOUS TURKEY BURGERS",
+            "category": "MAIN COURSE",
+            "description": "Delicious turkey burgers, perfect for a satisfying and filling meal.",
+            "price": "S1o",
+            "diet": "Non-veg"
+        }
+    ]
+}

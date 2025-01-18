@@ -54,8 +54,8 @@ def extract_text_from_image(image_path):
         cv2.imwrite(processed_image_path, img)
 
         print(f"Processed image saved to: {processed_image_path}")
-        with open("output.txt", "w") as file:
-           file.write(extracted_text)
+        # with open("output.txt", "w") as file:
+        #    file.write(extracted_text)
         # Return the extracted text
         return extracted_text
     except Exception as e:

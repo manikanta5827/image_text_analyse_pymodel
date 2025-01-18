@@ -1,0 +1,7 @@
+####
+GET http://localhost:3000/api/food-data?imageUrl=./Images/sam6.jpg
+
+####
+GET http://localhost:3000
+#####
+GET http://localhost:3000/api/food-data?imageUrl=https://i.pinimg.com/736x/de/64/1b/de641b58d8bcf05e4b5117adaf0cbf61.jpg

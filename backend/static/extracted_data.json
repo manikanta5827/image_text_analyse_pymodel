@@ -1,0 +1,400 @@
+{
+    "categories": [
+        "MAIN COURSE",
+        "APPETIZERS",
+        "BEVERAGES",
+        "SEA FOOD",
+        "VEGETARIAN DISHES",
+        "MUTTON",
+        "TANDOOR",
+        "NOODLES",
+        "EGG"
+    ],
+    "items": [
+        {
+            "name": "Cheeseburger",
+            "category": "MAIN COURSE",
+            "description": "A classic cheeseburger with juicy patty, melted cheese, and your choice of toppings.",
+            "price": 34,
+            "diet": "Non-veg"
+        },
+        {
+            "name": "Cheese sandwich",
+            "category": "MAIN COURSE",
+            "description": "A simple and satisfying sandwich filled with melted cheese and bread.",
+            "price": 22,
+            "diet": "veg"
+        },
+        {
+            "name": "Chicken burgers",
+            "category": "MAIN COURSE",
+            "description": "Chicken burgers with juicy chicken patty, cheese, and your choice of toppings.",
+            "price": 23,
+            "diet": "Non-veg"
+        },
+        {
+            "name": "Spicy chicken",
+            "category": "MAIN COURSE",
+            "description": "Spicy chicken dish with a flavorful kick.",
+            "price": 33,
+            "diet": "Non-veg"
+        },
+        {
+            "name": "Hot dog",
+            "category": "MAIN COURSE",
+            "description": "A classic hot dog with a savory taste.",
+            "price": 24,
+            "diet": "Non-veg"
+        },
+        {
+            "name": "Fruit Salad",
+            "category": "APPETIZERS",
+            "description": "A refreshing and colorful fruit salad with a mix of seasonal fruits.",
+            "price": 13,
+            "diet": "veg"
+        },
+        {
+            "name": "Cocktails",
+            "category": "APPETIZERS",
+            "description": "A selection of cocktails for your taste buds.",
+            "price": 12,
+            "diet": "Non-veg"
+        },
+        {
+            "name": "Nuggets",
+            "category": "APPETIZERS",
+            "description": "Crispy and flavorful nuggets, perfect for an appetizer or snack.",
+            "price": 14,
+            "diet": "Non-veg"
+        },
+        {
+            "name": "Sandwich",
+            "category": "APPETIZERS",
+            "description": "A simple and satisfying sandwich with your choice of fillings.",
+            "price": 13,
+            "diet": "veg"
+        },
+        {
+            "name": "French Fries",
+            "category": "APPETIZERS",
+            "description": "Crispy and salty french fries, a popular side dish.",
+            "price": 15,
+            "diet": "veg"
+        },
+        {
+            "name": "Milk Shake",
+            "category": "BEVERAGES",
+            "description": "A refreshing and delicious milkshake.",
+            "price": 3,
+            "diet": "veg"
+        },
+        {
+            "name": "Iced Tea",
+            "category": "BEVERAGES",
+            "description": "A refreshing and cool iced tea.",
+            "price": 2,
+            "diet": "veg"
+        },
+        {
+            "name": "Orange Juice",
+            "category": "BEVERAGES",
+            "description": "Freshly squeezed orange juice for a vitamin boost.",
+            "price": 4,
+            "diet": "veg"
+        },
+        {
+            "name": "Lemon Tea",
+            "category": "BEVERAGES",
+            "description": "A refreshing and tangy lemon tea.",
+            "price": 3,
+            "diet": "veg"
+        },
+        {
+            "name": "Coffee",
+            "category": "BEVERAGES",
+            "description": "A classic and aromatic coffee.",
+            "price": 5,
+            "diet": "veg"
+        },
+        {
+            "name": "Dhal",
+            "category": "VEGETARIAN DISHES",
+            "description": "A flavorful and healthy lentil dish.",
+            "price": 0,
+            "diet": "veg"
+        },
+        {
+            "name": "Fish",
+            "category": "SEA FOOD",
+            "description": "A delicious and fresh fish dish.",
+            "price": 0,
+            "diet": "Non-veg"
+        },
+        {
+            "name": "Mix Curry",
+            "category": "SEA FOOD",
+            "description": "A flavorful and satisfying mix curry.",
+            "price": 100,
+            "diet": "Non-veg"
+        },
+        {
+            "name": "Chilly Aloo Dobi Masala",
+            "category": "VEGETARIAN DISHES",
+            "description": "A flavorful and spicy potato dish.",
+            "price": 100,
+            "diet": "veg"
+        },
+        {
+            "name": "Prawn pepper fry",
+            "category": "SEA FOOD",
+            "description": "A delicious and spicy prawn dish.",
+            "price": 100,
+            "diet": "Non-veg"
+        },
+        {
+            "name": "Chenna Masala",
+            "category": "VEGETARIAN DISHES",
+            "description": "A creamy and flavorful cheese dish.",
+            "price": 100,
+            "diet": "veg"
+        },
+        {
+            "name": "Prawn curry",
+            "category": "SEA FOOD",
+            "description": "A flavorful and satisfying prawn curry.",
+            "price": 100,
+            "diet": "Non-veg"
+        },
+        {
+            "name": "Kadi Vegetable",
+            "category": "VEGETARIAN DISHES",
+            "description": "A flavorful and healthy vegetable dish in a rich kadi gravy.",
+            "price": 0,
+            "diet": "veg"
+        },
+        {
+            "name": "Chilly prawn",
+            "category": "SEA FOOD",
+            "description": "A spicy and flavorful prawn dish.",
+            "price": 100,
+            "diet": "Non-veg"
+        },
+        {
+            "name": "Kadi Kolapuri",
+            "category": "VEGETARIAN DISHES",
+            "description": "A flavorful and healthy vegetable dish in a special kolapuri kadi gravy.",
+            "price": 0,
+            "diet": "veg"
+        },
+        {
+            "name": "Malai Kuftha Curry",
+            "category": "MUTTON",
+            "description": "A rich and creamy mutton dish in a flavorful gravy.",
+            "price": 100,
+            "diet": "Non-veg"
+        },
+        {
+            "name": "Mutton pepper fry",
+            "category": "MUTTON",
+            "description": "A spicy and flavorful mutton dish.",
+            "price": 0,
+            "diet": "Non-veg"
+        },
+        {
+            "name": "Boiled Vegetable",
+            "category": "MUTTON",
+            "description": "A simple and healthy boiled vegetable dish.",
+            "price": 100,
+            "diet": "veg"
+        },
+        {
+            "name": "Mutton",
+            "category": "MUTTON",
+            "description": "A flavorful and satisfying mutton dish.",
+            "price": 100,
+            "diet": "Non-veg"
+        },
+        {
+            "name": "Paneer Butter Masala",
+            "category": "MUTTON",
+            "description": "A creamy and flavorful paneer dish in a rich butter masala gravy.",
+            "price": 0,
+            "diet": "veg"
+        },
+        {
+            "name": "Mutton Mohali curry",
+            "category": "MUTTON",
+            "description": "A rich and flavorful mutton dish in a mohali style curry.",
+            "price": 0,
+            "diet": "Non-veg"
+        },
+        {
+            "name": "Mutton Rogan Josh",
+            "category": "TANDOOR",
+            "description": "A flavorful and spicy mutton dish.",
+            "price": 100,
+            "diet": "Non-veg"
+        },
+        {
+            "name": "Naan",
+            "category": "TANDOOR",
+            "description": "A soft and fluffy naan bread.",
+            "price": 100,
+            "diet": "veg"
+        },
+        {
+            "name": "Mutton Biryani",
+            "category": "TANDOOR",
+            "description": "A flavorful and satisfying mutton biryani.",
+            "price": 100,
+            "diet": "Non-veg"
+        },
+        {
+            "name": "Butter Naan",
+            "category": "TANDOOR",
+            "description": "A soft and fluffy naan bread with a touch of butter.",
+            "price": 100,
+            "diet": "veg"
+        },
+        {
+            "name": "Kulcha",
+            "category": "TANDOOR",
+            "description": "A soft and fluffy kulcha bread.",
+            "price": 100,
+            "diet": "veg"
+        },
+        {
+            "name": "Pulka",
+            "category": "NOODLES",
+            "description": "A soft and fluffy pulka bread.",
+            "price": 0,
+            "diet": "veg"
+        },
+        {
+            "name": "Chicken Noodles",
+            "category": "NOODLES",
+            "description": "A flavorful and satisfying dish with chicken and noodles.",
+            "price": 0,
+            "diet": "Non-veg"
+        },
+        {
+            "name": "Chicken Tikka Noodles",
+            "category": "NOODLES",
+            "description": "A flavorful and satisfying dish with chicken tikka and noodles.",
+            "price": 100,
+            "diet": "Non-veg"
+        },
+        {
+            "name": "Paneer Tikka Noodles",
+            "category": "NOODLES",
+            "description": "A flavorful and satisfying dish with paneer tikka and noodles.",
+            "price": 0,
+            "diet": "veg"
+        },
+        {
+            "name": "Chilli Parotha",
+            "category": "NOODLES",
+            "description": "A flavorful and satisfying dish with a spicy touch.",
+            "price": 0,
+            "diet": "veg"
+        },
+        {
+            "name": "Mix Noodles",
+            "category": "NOODLES",
+            "description": "A flavorful and satisfying dish with a mix of vegetables and noodles.",
+            "price": 0,
+            "diet": "veg"
+        },
+        {
+            "name": "Reshmi Kabab",
+            "category": "NOODLES",
+            "description": "Tender and flavorful reshmi kabab.",
+            "price": 100,
+            "diet": "Non-veg"
+        },
+        {
+            "name": "Alu Paratha",
+            "category": "NOODLES",
+            "description": "A flavorful and satisfying dish with potatoes and paratha.",
+            "price": 100,
+            "diet": "veg"
+        },
+        {
+            "name": "Tandoor Egg",
+            "category": "EGG",
+            "description": "A flavorful and satisfying tandoor egg.",
+            "price": 100,
+            "diet": "veg"
+        },
+        {
+            "name": "Omelet",
+            "category": "EGG",
+            "description": "A simple and satisfying egg omelet.",
+            "price": 100,
+            "diet": "veg"
+        },
+        {
+            "name": "Barotta",
+            "category": "EGG",
+            "description": "A simple and satisfying barotta.",
+            "price": 100,
+            "diet": "veg"
+        },
+        {
+            "name": "Chappaty",
+            "category": "EGG",
+            "description": "A simple and satisfying chappaty.",
+            "price": 100,
+            "diet": "veg"
+        },
+        {
+            "name": "Masala Omelet",
+            "category": "EGG",
+            "description": "A flavorful and satisfying masala omelet.",
+            "price": 100,
+            "diet": "veg"
+        },
+        {
+            "name": "podimas curry",
+            "category": "EGG",
+            "description": "A flavorful and satisfying egg dish in a podimas curry.",
+            "price": 100,
+            "diet": "veg"
+        },
+        {
+            "name": "Egg fry",
+            "category": "EGG",
+            "description": "A simple and satisfying egg fry.",
+            "price": 100,
+            "diet": "veg"
+        },
+        {
+            "name": "Veg josh",
+            "category": "EGG",
+            "description": "A flavorful and satisfying veg josh dish.",
+            "price": 0,
+            "diet": "veg"
+        },
+        {
+            "name": "EgI",
+            "category": "EGG",
+            "description": "A simple and satisfying egg dish.",
+            "price": 0,
+            "diet": "veg"
+        },
+        {
+            "name": "Veg",
+            "category": "EGG",
+            "description": "A simple and satisfying veg dish.",
+            "price": 0,
+            "diet": "veg"
+        },
+        {
+            "name": "Leg",
+            "category": "EGG",
+            "description": "A simple and satisfying leg dish.",
+            "price": 0,
+            "diet": "veg"
+        }
+    ]
+}

@@ -16,7 +16,7 @@ function App() {
     formData.append("includeDetails", includeDetails);
 
     try {
-      const response = await axios.post("http://localhost:4000/api/food-data", formData, {
+      const response = await axios.post("https://image-text-analyse-pymodel-1.onrender.com/api/food-data", formData, {
         headers: { "Content-Type": "multipart/form-data" },
       });
       setResult(response.data);

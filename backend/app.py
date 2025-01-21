@@ -7,7 +7,7 @@ import os
 import json
 
 app = Flask(__name__)
-CORS(app)
+CORS(app, resources={r"/*": {"origins": "https://image-text-analyse-pymodel-ddjzn17e7.vercel.app"}})
 logging.basicConfig(level=logging.DEBUG)
 
 # Ensure directories exist

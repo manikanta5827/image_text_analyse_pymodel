@@ -1,400 +1,528 @@
 {
     "categories": [
-        "MAIN COURSE",
-        "APPETIZERS",
+        "SEAFOOD STARTERS",
+        "DESERTS",
+        "SEAFOOD CURRIES",
+        "MUTTON CURRIES",
+        "CHINESEFASTFOOD",
         "BEVERAGES",
-        "SEA FOOD",
-        "VEGETARIAN DISHES",
-        "MUTTON",
-        "TANDOOR",
-        "NOODLES",
-        "EGG"
+        "BIRYANIS",
+        "STARTERS",
+        "KEBABS",
+        "CURRIES",
+        "INDIAN BREADS"
     ],
     "items": [
         {
-            "name": "Cheeseburger",
-            "category": "MAIN COURSE",
-            "description": "A classic cheeseburger with juicy patty, melted cheese, and your choice of toppings.",
-            "price": 34,
+            "name": "APOLLO FISH",
+            "category": "SEAFOOD STARTERS",
+            "description": "A delicious seafood starter, Apollo Fish, is a great appetizer option.",
+            "price": 220,
             "diet": "Non-veg"
         },
         {
-            "name": "Cheese sandwich",
-            "category": "MAIN COURSE",
-            "description": "A simple and satisfying sandwich filled with melted cheese and bread.",
-            "price": 22,
+            "name": "CRISPY FISH",
+            "category": "SEAFOOD STARTERS",
+            "description": "Crispy Fish is a popular choice for a tasty and crunchy appetizer.",
+            "price": 220,
+            "diet": "Non-veg"
+        },
+        {
+            "name": "CHILLY FISH",
+            "category": "SEAFOOD STARTERS",
+            "description": "Chili Fish is a spicy and flavorful seafood starter, perfect for a flavorful meal.",
+            "price": 220,
+            "diet": "Non-veg"
+        },
+        {
+            "name": "FISH FRY",
+            "category": "SEAFOOD STARTERS",
+            "description": "Fish Fry is a crispy and savory fried fish starter, a great choice for those who love a crispy texture.",
+            "price": 230,
+            "diet": "Non-veg"
+        },
+        {
+            "name": "CHILLI PRAWNS",
+            "category": "SEAFOOD STARTERS",
+            "description": "Chili Prawns are a spicy and flavorful seafood appetizer.",
+            "price": 230,
+            "diet": "Non-veg"
+        },
+        {
+            "name": "LOOSE PRAWNS",
+            "category": "SEAFOOD STARTERS",
+            "description": "Loose Prawns, a delicious seafood starter, provide a delightful taste experience.",
+            "price": 230,
+            "diet": "Non-veg"
+        },
+        {
+            "name": "PRWANS",
+            "category": "SEAFOOD STARTERS",
+            "description": "Prawns is a popular and delicious seafood starter, an excellent choice for a flavorful meal.",
+            "price": 65,
+            "diet": "Non-veg"
+        },
+        {
+            "name": "RUMALI FISH CURRY",
+            "category": "SEAFOOD CURRIES",
+            "description": "Rumali Fish Curry is a flavorful and aromatic curry made with fish.",
+            "price": 220,
+            "diet": "Non-veg"
+        },
+        {
+            "name": "FISH MASALA",
+            "category": "SEAFOOD CURRIES",
+            "description": "Fish Masala is a savory and aromatic curry made with fish.",
+            "price": 220,
+            "diet": "Non-veg"
+        },
+        {
+            "name": "PRAWNS CURRY",
+            "category": "SEAFOOD CURRIES",
+            "description": "Prawns Curry is a delicious and flavorful curry made with prawns.",
+            "price": 220,
+            "diet": "Non-veg"
+        },
+        {
+            "name": "PRAWNS MASALA",
+            "category": "SEAFOOD CURRIES",
+            "description": "Prawns Masala is a savory and aromatic curry made with prawns.",
+            "price": 220,
+            "diet": "Non-veg"
+        },
+        {
+            "name": "MUTTON MASALA",
+            "category": "MUTTON CURRIES",
+            "description": "Mutton Masala is a flavorful and spicy curry made with mutton.",
+            "price": 180,
+            "diet": "Non-veg"
+        },
+        {
+            "name": "MUTTON FRYI BONELESS",
+            "category": "MUTTON CURRIES",
+            "description": "Mutton Fryi Boneless is a savory and crispy fry made with boneless mutton.",
+            "price": 210,
+            "diet": "Non-veg"
+        },
+        {
+            "name": "MUTTON SHAHI KHORMA",
+            "category": "MUTTON CURRIES",
+            "description": "Mutton Shahi Korma is a rich and creamy curry made with mutton.",
+            "price": 180,
+            "diet": "Non-veg"
+        },
+        {
+            "name": "MUTTON ROGHAN JOSH",
+            "category": "MUTTON CURRIES",
+            "description": "Mutton Rogan Josh is a flavorful and aromatic curry made with mutton.",
+            "price": 180,
+            "diet": "Non-veg"
+        },
+        {
+            "name": "KADAI MUTTON",
+            "category": "MUTTON CURRIES",
+            "description": "Kadai Mutton is a flavorful and spicy curry cooked in a kadai.",
+            "price": 180,
+            "diet": "Non-veg"
+        },
+        {
+            "name": "MARHABA SPL MUTTON CURRY",
+            "category": "MUTTON CURRIES",
+            "description": "Marhaba Spl Mutton Curry is a special and flavorful mutton curry.",
+            "price": 280,
+            "diet": "Non-veg"
+        },
+        {
+            "name": "MUTTON KHEEMA",
+            "category": "MUTTON CURRIES",
+            "description": "Mutton Kheema is a flavorful and minced mutton curry.",
+            "price": 200,
+            "diet": "Non-veg"
+        },
+        {
+            "name": "ANDHRA MUTTON",
+            "category": "MUTTON CURRIES",
+            "description": "Andhra Mutton is a spicy and flavorful curry made with mutton, Andhra style.",
+            "price": 180,
+            "diet": "Non-veg"
+        },
+        {
+            "name": "EGG SOFT NOODLES",
+            "category": "CHINESEFASTFOOD",
+            "description": "Egg Soft Noodles are a delicious and satisfying noodle dish.",
+            "price": 100,
+            "diet": "Non-veg"
+        },
+        {
+            "name": "CHICKEN SOFT NOODLES",
+            "category": "CHINESEFASTFOOD",
+            "description": "Chicken Soft Noodles is a delightful and tasty noodle dish.",
+            "price": 100,
+            "diet": "Non-veg"
+        },
+        {
+            "name": "SHEZWAN CHICKEN NOODLES",
+            "category": "CHINESEFASTFOOD",
+            "description": "Shezwan Chicken Noodles offer a tantalizing blend of flavors and textures.",
+            "price": 100,
+            "diet": "Non-veg"
+        },
+        {
+            "name": "VEG SOFT NOODLES",
+            "category": "CHINESEFASTFOOD",
+            "description": "Veg Soft Noodles is a delicious and satisfying vegetarian noodle dish.",
+            "price": 80,
             "diet": "veg"
         },
         {
-            "name": "Chicken burgers",
-            "category": "MAIN COURSE",
-            "description": "Chicken burgers with juicy chicken patty, cheese, and your choice of toppings.",
-            "price": 23,
-            "diet": "Non-veg"
-        },
-        {
-            "name": "Spicy chicken",
-            "category": "MAIN COURSE",
-            "description": "Spicy chicken dish with a flavorful kick.",
-            "price": 33,
-            "diet": "Non-veg"
-        },
-        {
-            "name": "Hot dog",
-            "category": "MAIN COURSE",
-            "description": "A classic hot dog with a savory taste.",
-            "price": 24,
-            "diet": "Non-veg"
-        },
-        {
-            "name": "Fruit Salad",
-            "category": "APPETIZERS",
-            "description": "A refreshing and colorful fruit salad with a mix of seasonal fruits.",
-            "price": 13,
+            "name": "VEG SHEZWAN FRIED RICE",
+            "category": "CHINESEFASTFOOD",
+            "description": "Veg Shezwan Fried Rice is a savory and flavorful vegetarian dish.",
+            "price": 80,
             "diet": "veg"
         },
         {
-            "name": "Cocktails",
-            "category": "APPETIZERS",
-            "description": "A selection of cocktails for your taste buds.",
-            "price": 12,
-            "diet": "Non-veg"
-        },
-        {
-            "name": "Nuggets",
-            "category": "APPETIZERS",
-            "description": "Crispy and flavorful nuggets, perfect for an appetizer or snack.",
-            "price": 14,
-            "diet": "Non-veg"
-        },
-        {
-            "name": "Sandwich",
-            "category": "APPETIZERS",
-            "description": "A simple and satisfying sandwich with your choice of fillings.",
-            "price": 13,
+            "name": "VEG FRIED RICE",
+            "category": "CHINESEFASTFOOD",
+            "description": "Veg Fried Rice is a flavorful and satisfying vegetarian dish.",
+            "price": 80,
             "diet": "veg"
         },
         {
-            "name": "French Fries",
-            "category": "APPETIZERS",
-            "description": "Crispy and salty french fries, a popular side dish.",
+            "name": "EGG FRIED RICE",
+            "category": "CHINESEFASTFOOD",
+            "description": "Egg Fried Rice is a savory and flavorful fried rice dish with eggs.",
+            "price": 90,
+            "diet": "Non-veg"
+        },
+        {
+            "name": "CHICKEN FRIED RICE",
+            "category": "CHINESEFASTFOOD",
+            "description": "Chicken Fried Rice is a delicious and satisfying fried rice dish with chicken.",
+            "price": 110,
+            "diet": "Non-veg"
+        },
+        {
+            "name": "MIXED FRIED RICE",
+            "category": "CHINESEFASTFOOD",
+            "description": "Mixed Fried Rice is a diverse and flavorful fried rice dish with various ingredients.",
+            "price": 120,
+            "diet": "veg"
+        },
+        {
+            "name": "PRAWNS FRIED RICE",
+            "category": "CHINESEFASTFOOD",
+            "description": "Prawns Fried Rice is a flavorful and satisfying fried rice dish with prawns.",
+            "price": 130,
+            "diet": "Non-veg"
+        },
+        {
+            "name": "MUTTON FRIED RICE",
+            "category": "CHINESEFASTFOOD",
+            "description": "Mutton Fried Rice is a flavorful and satisfying fried rice dish with mutton.",
+            "price": 120,
+            "diet": "Non-veg"
+        },
+        {
+            "name": "ZEERA FRIED RICE",
+            "category": "CHINESEFASTFOOD",
+            "description": "Zeera Fried Rice is a flavorful and aromatic fried rice dish with cumin.",
+            "price": 90,
+            "diet": "veg"
+        },
+        {
+            "name": "PLAIN BASMATI RICE",
+            "category": "CHINESEFASTFOOD",
+            "description": "Plain Basmati Rice is a simple and versatile rice dish.",
+            "price": 80,
+            "diet": "veg"
+        },
+        {
+            "name": "QUBANI KA MEETHA",
+            "category": "DESERTS",
+            "description": "Qubani ka Meetha is a sweet and delicious dessert.",
+            "price": 250,
+            "diet": "veg"
+        },
+        {
+            "name": "DOUBLE KA MEETHA",
+            "category": "DESERTS",
+            "description": "Double ka Meetha is a sweet and delicious dessert.",
+            "price": 873,
+            "diet": "veg"
+        },
+        {
+            "name": "KADDU Ki KHEER",
+            "category": "DESERTS",
+            "description": "Kaddu Ki Kheer is a delicious sweet pudding made from pumpkin.",
+            "price": null,
+            "diet": "veg"
+        },
+        {
+            "name": "FRUIT SALAD",
+            "category": "DESERTS",
+            "description": "Fruit Salad is a refreshing and light dessert option.",
+            "price": 40,
+            "diet": "veg"
+        },
+        {
+            "name": "BUTTER NAAN",
+            "category": "INDIAN BREADS",
+            "description": "Butter Naan is a soft and buttery Indian bread.",
+            "price": 25,
+            "diet": "veg"
+        },
+        {
+            "name": "PLAIN NAAN",
+            "category": "INDIAN BREADS",
+            "description": "Plain Naan is a soft and delicious Indian bread.",
             "price": 15,
             "diet": "veg"
         },
         {
-            "name": "Milk Shake",
+            "name": "Rotl",
+            "category": "INDIAN BREADS",
+            "description": "Rotli is a traditional Indian flatbread.",
+            "price": null,
+            "diet": "veg"
+        },
+        {
+            "name": "TANDOORI ROTI",
+            "category": "INDIAN BREADS",
+            "description": "Tandoori Roti is a traditional Indian flatbread, cooked in a tandoor.",
+            "price": null,
+            "diet": "veg"
+        },
+        {
+            "name": "RUMALI ROTI",
+            "category": "INDIAN BREADS",
+            "description": "Rumali Roti is a thin and delicate Indian bread, often used with curries.",
+            "price": null,
+            "diet": "veg"
+        },
+        {
+            "name": "Diet Coke",
             "category": "BEVERAGES",
-            "description": "A refreshing and delicious milkshake.",
-            "price": 3,
+            "description": "Diet Coke is a refreshing and popular carbonated beverage.",
+            "price": null,
             "diet": "veg"
         },
         {
-            "name": "Iced Tea",
+            "name": "Thums Up",
             "category": "BEVERAGES",
-            "description": "A refreshing and cool iced tea.",
-            "price": 2,
+            "description": "Thums Up is a popular and refreshing carbonated beverage.",
+            "price": null,
             "diet": "veg"
         },
         {
-            "name": "Orange Juice",
+            "name": "Mineral Water",
             "category": "BEVERAGES",
-            "description": "Freshly squeezed orange juice for a vitamin boost.",
-            "price": 4,
+            "description": "Mineral Water is a refreshing and hydrating beverage.",
+            "price": null,
             "diet": "veg"
         },
         {
-            "name": "Lemon Tea",
+            "name": "Maaza",
             "category": "BEVERAGES",
-            "description": "A refreshing and tangy lemon tea.",
-            "price": 3,
+            "description": "Maaza is a popular and refreshing fruit-flavored carbonated beverage.",
+            "price": null,
             "diet": "veg"
         },
         {
-            "name": "Coffee",
+            "name": "Sprite",
             "category": "BEVERAGES",
-            "description": "A classic and aromatic coffee.",
-            "price": 5,
+            "description": "Sprite is a refreshing and popular carbonated beverage.",
+            "price": null,
             "diet": "veg"
         },
         {
-            "name": "Dhal",
-            "category": "VEGETARIAN DISHES",
-            "description": "A flavorful and healthy lentil dish.",
-            "price": 0,
+            "name": "Coke Tin",
+            "category": "BEVERAGES",
+            "description": "Coke Tin is a popular and refreshing carbonated beverage.",
+            "price": null,
             "diet": "veg"
         },
         {
-            "name": "Fish",
-            "category": "SEA FOOD",
-            "description": "A delicious and fresh fish dish.",
-            "price": 0,
-            "diet": "Non-veg"
-        },
-        {
-            "name": "Mix Curry",
-            "category": "SEA FOOD",
-            "description": "A flavorful and satisfying mix curry.",
-            "price": 100,
-            "diet": "Non-veg"
-        },
-        {
-            "name": "Chilly Aloo Dobi Masala",
-            "category": "VEGETARIAN DISHES",
-            "description": "A flavorful and spicy potato dish.",
-            "price": 100,
+            "name": "Coke",
+            "category": "BEVERAGES",
+            "description": "Coke is a popular and refreshing carbonated beverage.",
+            "price": null,
             "diet": "veg"
         },
         {
-            "name": "Prawn pepper fry",
-            "category": "SEA FOOD",
-            "description": "A delicious and spicy prawn dish.",
-            "price": 100,
-            "diet": "Non-veg"
-        },
-        {
-            "name": "Chenna Masala",
-            "category": "VEGETARIAN DISHES",
-            "description": "A creamy and flavorful cheese dish.",
-            "price": 100,
+            "name": "Fanta",
+            "category": "BEVERAGES",
+            "description": "Fanta is a popular and refreshing fruit-flavored carbonated beverage.",
+            "price": null,
             "diet": "veg"
         },
         {
-            "name": "Prawn curry",
-            "category": "SEA FOOD",
-            "description": "A flavorful and satisfying prawn curry.",
-            "price": 100,
+            "name": "Chicken Birvani",
+            "category": "BIRYANIS",
+            "description": "Chicken Biryani is a flavorful and aromatic dish.",
+            "price": 2210,
             "diet": "Non-veg"
-        },
-        {
-            "name": "Kadi Vegetable",
-            "category": "VEGETARIAN DISHES",
-            "description": "A flavorful and healthy vegetable dish in a rich kadi gravy.",
-            "price": 0,
-            "diet": "veg"
-        },
-        {
-            "name": "Chilly prawn",
-            "category": "SEA FOOD",
-            "description": "A spicy and flavorful prawn dish.",
-            "price": 100,
-            "diet": "Non-veg"
-        },
-        {
-            "name": "Kadi Kolapuri",
-            "category": "VEGETARIAN DISHES",
-            "description": "A flavorful and healthy vegetable dish in a special kolapuri kadi gravy.",
-            "price": 0,
-            "diet": "veg"
-        },
-        {
-            "name": "Malai Kuftha Curry",
-            "category": "MUTTON",
-            "description": "A rich and creamy mutton dish in a flavorful gravy.",
-            "price": 100,
-            "diet": "Non-veg"
-        },
-        {
-            "name": "Mutton pepper fry",
-            "category": "MUTTON",
-            "description": "A spicy and flavorful mutton dish.",
-            "price": 0,
-            "diet": "Non-veg"
-        },
-        {
-            "name": "Boiled Vegetable",
-            "category": "MUTTON",
-            "description": "A simple and healthy boiled vegetable dish.",
-            "price": 100,
-            "diet": "veg"
-        },
-        {
-            "name": "Mutton",
-            "category": "MUTTON",
-            "description": "A flavorful and satisfying mutton dish.",
-            "price": 100,
-            "diet": "Non-veg"
-        },
-        {
-            "name": "Paneer Butter Masala",
-            "category": "MUTTON",
-            "description": "A creamy and flavorful paneer dish in a rich butter masala gravy.",
-            "price": 0,
-            "diet": "veg"
-        },
-        {
-            "name": "Mutton Mohali curry",
-            "category": "MUTTON",
-            "description": "A rich and flavorful mutton dish in a mohali style curry.",
-            "price": 0,
-            "diet": "Non-veg"
-        },
-        {
-            "name": "Mutton Rogan Josh",
-            "category": "TANDOOR",
-            "description": "A flavorful and spicy mutton dish.",
-            "price": 100,
-            "diet": "Non-veg"
-        },
-        {
-            "name": "Naan",
-            "category": "TANDOOR",
-            "description": "A soft and fluffy naan bread.",
-            "price": 100,
-            "diet": "veg"
         },
         {
             "name": "Mutton Biryani",
-            "category": "TANDOOR",
-            "description": "A flavorful and satisfying mutton biryani.",
-            "price": 100,
+            "category": "BIRYANIS",
+            "description": "Mutton Biryani is a rich and flavorful dish.",
+            "price": 8253,
             "diet": "Non-veg"
         },
         {
-            "name": "Butter Naan",
-            "category": "TANDOOR",
-            "description": "A soft and fluffy naan bread with a touch of butter.",
-            "price": 100,
-            "diet": "veg"
-        },
-        {
-            "name": "Kulcha",
-            "category": "TANDOOR",
-            "description": "A soft and fluffy kulcha bread.",
-            "price": 100,
-            "diet": "veg"
-        },
-        {
-            "name": "Pulka",
-            "category": "NOODLES",
-            "description": "A soft and fluffy pulka bread.",
-            "price": 0,
-            "diet": "veg"
-        },
-        {
-            "name": "Chicken Noodles",
-            "category": "NOODLES",
-            "description": "A flavorful and satisfying dish with chicken and noodles.",
-            "price": 0,
+            "name": "Chicken Family Pack",
+            "category": "BIRYANIS",
+            "description": "Chicken Family Pack is a flavorful and aromatic meal for a group.",
+            "price": 2552,
             "diet": "Non-veg"
         },
         {
-            "name": "Chicken Tikka Noodles",
-            "category": "NOODLES",
-            "description": "A flavorful and satisfying dish with chicken tikka and noodles.",
-            "price": 100,
+            "name": "Mutton Family Pack",
+            "category": "BIRYANIS",
+            "description": "Mutton Family Pack is a rich and flavorful meal for a group.",
+            "price": 2576,
             "diet": "Non-veg"
         },
         {
-            "name": "Paneer Tikka Noodles",
-            "category": "NOODLES",
-            "description": "A flavorful and satisfying dish with paneer tikka and noodles.",
-            "price": 0,
-            "diet": "veg"
-        },
-        {
-            "name": "Chilli Parotha",
-            "category": "NOODLES",
-            "description": "A flavorful and satisfying dish with a spicy touch.",
-            "price": 0,
-            "diet": "veg"
-        },
-        {
-            "name": "Mix Noodles",
-            "category": "NOODLES",
-            "description": "A flavorful and satisfying dish with a mix of vegetables and noodles.",
-            "price": 0,
-            "diet": "veg"
-        },
-        {
-            "name": "Reshmi Kabab",
-            "category": "NOODLES",
-            "description": "Tender and flavorful reshmi kabab.",
-            "price": 100,
+            "name": "Special Chicken Biryani",
+            "category": "BIRYANIS",
+            "description": "Special Chicken Biryani is a flavorful and aromatic dish, with special flavors.",
+            "price": 2337,
             "diet": "Non-veg"
         },
         {
-            "name": "Alu Paratha",
-            "category": "NOODLES",
-            "description": "A flavorful and satisfying dish with potatoes and paratha.",
-            "price": 100,
+            "name": "Special Mutton Biryani",
+            "category": "BIRYANIS",
+            "description": "Special Mutton Biryani is a flavorful and aromatic dish with unique flavors.",
+            "price": 8351,
+            "diet": "Non-veg"
+        },
+        {
+            "name": "Supreme Chicken Biryani",
+            "category": "BIRYANIS",
+            "description": "Supreme Chicken Biryani is a highly flavorful and aromatic rice dish.",
+            "price": 784,
+            "diet": "Non-veg"
+        },
+        {
+            "name": "Supreme Mutton Biryani",
+            "category": "BIRYANIS",
+            "description": "Supreme Mutton Biryani is a highly flavorful and aromatic rice dish.",
+            "price": 2819,
+            "diet": "Non-veg"
+        },
+        {
+            "name": "Egg Birvani",
+            "category": "BIRYANIS",
+            "description": "Egg Birvani is a flavorful and aromatic dish made with eggs.",
+            "price": 2154,
+            "diet": "Non-veg"
+        },
+        {
+            "name": "Birvani",
+            "category": "BIRYANIS",
+            "description": "Birvani is a flavorful and aromatic rice dish.",
+            "price": 154,
+            "diet": "Non-veg"
+        },
+        {
+            "name": "Family Pack",
+            "category": "BIRYANIS",
+            "description": "Family Pack is a flavorful and aromatic dish, a meal for a family.",
+            "price": 8383,
+            "diet": "Non-veg"
+        },
+        {
+            "name": "Supreme Pack",
+            "category": "BIRYANIS",
+            "description": "Supreme Pack is a flavorful and aromatic dish, a meal for a group.",
+            "price": 2574,
+            "diet": "Non-veg"
+        },
+        {
+            "name": "Chilli Chicken",
+            "category": "STARTERS",
+            "description": "Chilli Chicken is a flavorful and spicy chicken dish.",
+            "price": 2264,
+            "diet": "Non-veg"
+        },
+        {
+            "name": "Chicken 65",
+            "category": "STARTERS",
+            "description": "Chicken 65 is a flavorful and spicy chicken dish.",
+            "price": 264,
+            "diet": "Non-veg"
+        },
+        {
+            "name": "Pepper Chicken",
+            "category": "STARTERS",
+            "description": "Pepper Chicken is a flavorful and spicy chicken dish.",
+            "price": 264,
+            "diet": "Non-veg"
+        },
+        {
+            "name": "Paneer 65",
+            "category": "STARTERS",
+            "description": "Paneer 65 is a flavorful and delicious vegetarian dish.",
+            "price": 7196,
             "diet": "veg"
         },
         {
-            "name": "Tandoor Egg",
-            "category": "EGG",
-            "description": "A flavorful and satisfying tandoor egg.",
-            "price": 100,
+            "name": "Manchurian",
+            "category": "STARTERS",
+            "description": "Manchurian is a flavorful and delicious dish.",
+            "price": 7189,
             "diet": "veg"
         },
         {
-            "name": "Omelet",
-            "category": "EGG",
-            "description": "A simple and satisfying egg omelet.",
-            "price": 100,
-            "diet": "veg"
+            "name": "Chicken Tikka Kebab",
+            "category": "KEBABS",
+            "description": "Chicken Tikka Kebab is a flavorful and tender kebab.",
+            "price": 2243,
+            "diet": "Non-veg"
         },
         {
-            "name": "Barotta",
-            "category": "EGG",
-            "description": "A simple and satisfying barotta.",
-            "price": 100,
-            "diet": "veg"
+            "name": "Tandoori Chicken (Half)",
+            "category": "KEBABS",
+            "description": "Tandoori Chicken (Half) is a flavorful and tender chicken kebab.",
+            "price": 243,
+            "diet": "Non-veg"
         },
         {
-            "name": "Chappaty",
-            "category": "EGG",
-            "description": "A simple and satisfying chappaty.",
-            "price": 100,
-            "diet": "veg"
+            "name": "Tandoori Chicken (Full)",
+            "category": "KEBABS",
+            "description": "Tandoori Chicken (Full) is a flavorful and tender chicken kebab.",
+            "price": 8379,
+            "diet": "Non-veg"
         },
         {
-            "name": "Masala Omelet",
-            "category": "EGG",
-            "description": "A flavorful and satisfying masala omelet.",
-            "price": 100,
-            "diet": "veg"
+            "name": "Chicken Reshmi Kebab",
+            "category": "KEBABS",
+            "description": "Chicken Reshmi Kebab is a flavorful and tender kebab.",
+            "price": 2243,
+            "diet": "Non-veg"
         },
         {
-            "name": "podimas curry",
-            "category": "EGG",
-            "description": "A flavorful and satisfying egg dish in a podimas curry.",
-            "price": 100,
-            "diet": "veg"
+            "name": "Chicken Garlic Kebab",
+            "category": "KEBABS",
+            "description": "Chicken Garlic Kebab is a flavorful and tender chicken kebab.",
+            "price": 2243,
+            "diet": "Non-veg"
         },
         {
-            "name": "Egg fry",
-            "category": "EGG",
-            "description": "A simple and satisfying egg fry.",
-            "price": 100,
-            "diet": "veg"
+            "name": "Butter Chicken Boneless",
+            "category": "CURRIES",
+            "description": "Butter Chicken Boneless is a rich and creamy curry.",
+            "price": 246,
+            "diet": "Non-veg"
         },
         {
-            "name": "Veg josh",
-            "category": "EGG",
-            "description": "A flavorful and satisfying veg josh dish.",
-            "price": 0,
-            "diet": "veg"
-        },
-        {
-            "name": "EgI",
-            "category": "EGG",
-            "description": "A simple and satisfying egg dish.",
-            "price": 0,
-            "diet": "veg"
-        },
-        {
-            "name": "Veg",
-            "category": "EGG",
-            "description": "A simple and satisfying veg dish.",
-            "price": 0,
-            "diet": "veg"
-        },
-        {
-            "name": "Leg",
-            "category": "EGG",
-            "description": "A simple and satisfying leg dish.",
-            "price": 0,
-            "diet": "veg"
+            "name": "Nizami Handi",
+            "category": "CURRIES",
+            "description": "Nizami Handi is a flavorful and aromatic curry.",
+            "price": 2171,
+            "diet": "Non-veg"
         }
     ]
 }

@@ -6,8 +6,7 @@ import asyncio
 import os
 import json
 
-print("Starting the Flask application...")
-app = Flask(__name__)
+app = Flask(__name__, static_folder=None)
 
 # Configure CORS
 CORS(app, resources={r"/*": {"origins": "*"}},
@@ -15,11 +14,13 @@ CORS(app, resources={r"/*": {"origins": "*"}},
      allow_headers=["Content-Type", "Authorization"],
      methods=["GET", "POST", "OPTIONS"])
 
-logging.basicConfig(level=logging.DEBUG)  
+logging.basicConfig(level=logging.DEBUG)
 
-# Ensure directories exist
-os.makedirs('./static/images', exist_ok=True)
-os.makedirs('./static', exist_ok=True)
+# Base directory for the backend folder
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+STATIC_DIR = os.path.abspath(os.path.join(BASE_DIR, '../static'))
+IMAGES_DIR = os.path.join(STATIC_DIR, 'images')
+os.makedirs(IMAGES_DIR, exist_ok=True)
 
 @app.after_request
 def add_cors_headers(response):
@@ -36,7 +37,6 @@ def options():
     response.headers['Access-Control-Allow-Headers'] = 'Content-Type, Authorization'
     return response, 204
 
-
 @app.route("/api/food-data", methods=["POST"])
 async def get_food_data():
     try:
@@ -48,13 +48,15 @@ async def get_food_data():
 
         image_paths = []
         for image in files:
-            image_path = f'./static/images/{image.filename}'
+            image_path = os.path.join(IMAGES_DIR, image.filename)
             await asyncio.to_thread(image.save, image_path)
             image_paths.append(image_path)
 
         structured_data = await process_images(image_paths, include_details)
 
-        with open('./static/extracted_data.json', 'w') as json_file:
+        # Save extracted data to a JSON file in the static directory
+        json_file_path = os.path.join(STATIC_DIR, 'extracted_data.json')
+        with open(json_file_path, 'w') as json_file:
             json.dump(structured_data, json_file, indent=4)
 
         return jsonify(structured_data), 200
@@ -68,7 +70,7 @@ async def get_food_data():
 def home():
     return "Welcome to FoodAI API", 200
 
-@app.route("/health",methods=["GET"])
+@app.route("/health", methods=["GET"])
 def health():
     return "OK", 200
 

@@ -20,7 +20,8 @@ def sanitize_json_string(data):
 
 async def extract_texts_from_images(image_paths):
     try:
-        tasks = [asyncio.to_thread(extract_text_from_image, path) for path in image_paths]
+        # Directly call the async function in gather
+        tasks = [extract_text_from_image(path) for path in image_paths]
         texts = await asyncio.gather(*tasks, return_exceptions=True)
 
         return [

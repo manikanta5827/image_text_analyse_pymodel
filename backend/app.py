@@ -7,7 +7,13 @@ import os
 import json
 
 app = Flask(__name__)
-CORS(app)
+
+# Configure CORS
+CORS(app, resources={r"/*": {"origins": ["http://localhost:3000", "https://image-text-analyse-pymodel.vercel.app"]}},
+     supports_credentials=True,
+     allow_headers=["Content-Type", "Authorization"],
+     methods=["GET", "POST", "OPTIONS"])
+
 logging.basicConfig(level=logging.DEBUG)  
 
 # Ensure directories exist
@@ -44,14 +50,6 @@ async def get_food_data():
 @app.route("/", methods=["GET"])
 def home():
     return "Welcome to FoodAI API", 200
-
-# @app.after_request
-# def add_cors_headers(response):
-#     response.headers['Access-Control-Allow-Origin'] = 'https://image-text-analyse-pymodel-ddjzn17e7.vercel.app'
-#     response.headers['Access-Control-Allow-Methods'] = 'GET, POST, OPTIONS'
-#     response.headers['Access-Control-Allow-Headers'] = 'Content-Type, Authorization'
-#     return response
-
 
 if __name__ == "__main__":
     PORT = int(os.environ.get("PORT", 4000))

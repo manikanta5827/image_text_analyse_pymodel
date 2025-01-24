@@ -9,7 +9,7 @@ import json
 app = Flask(__name__)
 
 # Configure CORS
-CORS(app, resources={r"/*": {"origins": ["http://localhost:3000", "https://image-text-analyse-pymodel.vercel.app"]}},
+CORS(app, resources={r"/*": {"origins": "*"}},
      supports_credentials=True,
      allow_headers=["Content-Type", "Authorization"],
      methods=["GET", "POST", "OPTIONS"])
@@ -19,6 +19,22 @@ logging.basicConfig(level=logging.DEBUG)
 # Ensure directories exist
 os.makedirs('./static/images', exist_ok=True)
 os.makedirs('./static', exist_ok=True)
+
+@app.after_request
+def add_cors_headers(response):
+    response.headers['Access-Control-Allow-Origin'] = '*'
+    response.headers['Access-Control-Allow-Methods'] = 'GET, POST, OPTIONS'
+    response.headers['Access-Control-Allow-Headers'] = 'Content-Type, Authorization'
+    return response
+
+@app.route("/api/food-data", methods=["OPTIONS"])
+def options():
+    response = jsonify({})
+    response.headers['Access-Control-Allow-Origin'] = '*'
+    response.headers['Access-Control-Allow-Methods'] = 'GET, POST, OPTIONS'
+    response.headers['Access-Control-Allow-Headers'] = 'Content-Type, Authorization'
+    return response, 204
+
 
 @app.route("/api/food-data", methods=["POST"])
 async def get_food_data():

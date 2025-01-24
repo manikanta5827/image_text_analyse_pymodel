@@ -8,77 +8,77 @@
         {
             "name": "Cheeseburger",
             "category": "MAIN COURSE",
-            "description": "A juicy cheeseburger, packed with flavor. A classic choice for a satisfying meal.",
+            "description": "A juicy cheeseburger, featuring a savory blend of beef and melted cheese, served on a toasted bun.",
             "price": 34,
             "diet": "Non-veg"
         },
         {
             "name": "Cheese sandwich",
             "category": "MAIN COURSE",
-            "description": "A simple yet delicious cheese sandwich. Perfect for a quick and satisfying meal.",
+            "description": "A classic cheese sandwich with sliced cheese between two soft bread pieces.",
             "price": 22,
             "diet": "veg"
         },
         {
             "name": "Chicken burgers",
             "category": "MAIN COURSE",
-            "description": "Tender chicken patties in a burger bun. A flavorful and satisfying option.",
+            "description": "Tender chicken burgers with a variety of seasonings and toppings, served on a bun.",
             "price": 23,
             "diet": "Non-veg"
         },
         {
             "name": "Spicy chicken",
             "category": "MAIN COURSE",
-            "description": "Spicy chicken dish. A flavorful and bold option.",
+            "description": "Spicy chicken dish with a fiery and flavorful taste, a great choice for those who love a hot kick.",
             "price": 33,
             "diet": "Non-veg"
         },
         {
             "name": "Hot dog",
             "category": "MAIN COURSE",
-            "description": "A classic hot dog, a simple and satisfying choice for a quick meal.",
+            "description": "A classic hot dog, typically served with mustard, relish, and onions.",
             "price": 24,
             "diet": "Non-veg"
         },
         {
             "name": "Fruit Salad",
             "category": "APPETIZERS",
-            "description": "A refreshing fruit salad, a delightful and healthy appetizer.",
+            "description": "A refreshing fruit salad with a variety of seasonal fruits, creating a sweet and tangy delight.",
             "price": 13,
             "diet": "veg"
         },
         {
             "name": "Cocktails",
             "category": "APPETIZERS",
-            "description": "A variety of cocktails, perfect for enjoying with appetizers.",
+            "description": "A variety of cocktails, each with a unique blend of flavors.",
             "price": 12,
             "diet": "Non-veg"
         },
         {
             "name": "Nuggets",
             "category": "APPETIZERS",
-            "description": "Crispy nuggets, a crowd-pleasing appetizer.",
+            "description": "Crispy nuggets with a delicious flavor and texture, perfect as a starter or snack.",
             "price": 14,
             "diet": "Non-veg"
         },
         {
             "name": "Sandwich",
             "category": "APPETIZERS",
-            "description": "A tasty sandwich, an ideal choice for an appetizer.",
+            "description": "A variety of sandwiches available, each with a unique mix of fillings.",
             "price": 13,
             "diet": "veg"
         },
         {
             "name": "French Fries",
             "category": "APPETIZERS",
-            "description": "Crispy french fries, a savory side dish for any meal.",
+            "description": "Crispy french fries, a classic side dish that complements many meals.",
             "price": 15,
             "diet": "veg"
         },
         {
             "name": "Milk Shake",
             "category": "BEVERAGES",
-            "description": "A creamy and delicious milkshake, a refreshing beverage option.",
+            "description": "A creamy and delicious milk shake, a perfect choice for a refreshing beverage.",
             "price": 3,
             "diet": "veg"
         },
@@ -92,21 +92,21 @@
         {
             "name": "Orange Juice",
             "category": "BEVERAGES",
-            "description": "A refreshing glass of orange juice, a healthy and flavorful beverage.",
+            "description": "A fresh and tangy glass of orange juice.",
             "price": 4,
             "diet": "veg"
         },
         {
             "name": "Lemon Tea",
             "category": "BEVERAGES",
-            "description": "A tangy lemon tea, a comforting and flavorful beverage.",
+            "description": "A refreshing lemon tea, with a slightly tart flavor.",
             "price": 3,
             "diet": "veg"
         },
         {
             "name": "Coffee",
             "category": "BEVERAGES",
-            "description": "A classic cup of coffee, a perfect pick-me-up.",
+            "description": "A rich and flavorful cup of coffee.",
             "price": 5,
             "diet": "veg"
         }

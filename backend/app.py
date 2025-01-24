@@ -6,6 +6,7 @@ import asyncio
 import os
 import json
 
+print("Starting the Flask application...")
 app = Flask(__name__)
 
 # Configure CORS

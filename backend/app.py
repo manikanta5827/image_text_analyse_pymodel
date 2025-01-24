@@ -67,6 +67,10 @@ async def get_food_data():
 def home():
     return "Welcome to FoodAI API", 200
 
+@app.route("/health",methods=["GET"])
+def health():
+    return "OK", 200
+
 if __name__ == "__main__":
     PORT = int(os.environ.get("PORT", 4000))
     app.run(host="0.0.0.0", port=PORT, debug=True)

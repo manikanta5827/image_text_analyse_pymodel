@@ -6,5 +6,5 @@ def preprocess_image(image_path):
         img = ImageOps.autocontrast(img).filter(ImageFilter.SHARPEN)
         return np.array(img)
     except Exception as e:
-        print(f"Preprocessing Error: {e}")
+        print(f"Error [ in imagePreProcessor file ] Preprocessing Error: {e}")
         return None

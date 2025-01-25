@@ -38,6 +38,7 @@ async def save_file_async(file_path, content, is_image=False):
 async def extract_text_from_image(image_path):
     try:
         # Preprocess the image
+        # print(f"Preprocessing image: {image_path}")
         preprocessed_img = preprocess_image(image_path)
         if preprocessed_img is None:
             raise ValueError("Preprocessing failed.")
@@ -62,5 +63,5 @@ async def extract_text_from_image(image_path):
         print(f"Background tasks started for saving files.")
         return extracted_text
     except Exception as e:
-        print(f"OCR Error: {e}")
+        print(f"Error in [ textExtractor.py ] OCR Error: {e}")
         return ""

@@ -1,22 +1,9 @@
 import asyncio
-import json
 import logging
-import re
 from helper.textExtractor import extract_text_from_image
 from helper.aiProcessor import process_with_gen_ai
 from helper.aiPrompt import generate_prompt
-
-def is_json(data):
-    try:
-        json.loads(data)
-        return True
-    except (ValueError, TypeError):
-        return False
-
-def sanitize_json_string(data):
-    """Sanitize the JSON string by removing or escaping invalid control characters."""
-    # Remove any non-printable characters that are not escaped
-    return re.sub(r'[\x00-\x1F\x7F]+', '', data)
+from helper.jsonParser import jsonParser
 
 async def extract_texts_from_images(image_paths):
     try:
@@ -38,20 +25,10 @@ async def process_images(image_paths, include_details=False):
         combined_text = "\n".join(texts)
         prompt = generate_prompt(combined_text, include_details)
         structured_data = process_with_gen_ai(prompt)
-
-        # Handle AI response
-        if isinstance(structured_data, str):
-            # Clean up the structured data before parsing as JSON
-            structured_data = structured_data.replace("```json", "").replace("```", "")
-            sanitized_data = sanitize_json_string(structured_data)
-            if not is_json(sanitized_data):
-                sanitized_data += '""'  
-            return json.loads(sanitized_data)
-        elif isinstance(structured_data, dict):
-            return structured_data
-        else:
-            raise ValueError("Unexpected AI response format")
+        parsed_data = jsonParser(structured_data)
+        return parsed_data   
 
     except Exception as e:
-        logging.error(f"Error processing images: {e}", exc_info=True)
+        logging.error(f"Error [ in Main file ] processing images: {e}", exc_info=True)
         return {"error": "Critical error processing images"}
+

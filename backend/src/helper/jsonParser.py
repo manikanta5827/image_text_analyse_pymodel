@@ -15,7 +15,7 @@ def jsonParser(structured_data):
     # Handle AI response
         if isinstance(structured_data, str):
             # Clean up the structured data before parsing as JSON
-            structured_data = structured_data.replace("```json", "").replace("```", "")
+            structured_data = structured_data.replace("```json", "").replace("```", "").strip()
             sanitized_data = sanitize_json_string(structured_data)
             if not is_json(sanitized_data):
                 sanitized_data += '""'  

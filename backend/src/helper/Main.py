@@ -7,8 +7,8 @@ from helper.jsonParser import jsonParser
 
 async def extract_texts_from_images(image_paths):
     try:
-        # Directly call the async function in gather
-        tasks = [extract_text_from_image(path) for path in image_paths]
+        loop = asyncio.get_event_loop()
+        tasks = [loop.run_in_executor(None, extract_text_from_image, path) for path in image_paths]
         texts = await asyncio.gather(*tasks, return_exceptions=True)
 
         return [
@@ -23,6 +23,7 @@ async def process_images(image_paths, include_details=False):
     try:
         texts = await extract_texts_from_images(image_paths)
         combined_text = "\n".join(texts)
+        print(f'text : {combined_text}')
         prompt = generate_prompt(combined_text, include_details)
         structured_data = process_with_gen_ai(prompt)
         parsed_data = jsonParser(structured_data)

@@ -19,7 +19,7 @@ function App() {
       const response = await axios.post("http://localhost:4000/api/food-data", formData, {
         headers: { "Content-Type": "multipart/form-data" },
       });
-      setResult(response.data);
+      typeof response.data === "string" ? setResult(JSON.parse(response.data)) : setResult(response.data);
     } catch (error) {
       console.error("Error:", error);
     } finally {

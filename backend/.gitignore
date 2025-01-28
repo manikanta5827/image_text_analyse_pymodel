@@ -1,5 +1,5 @@
 .env
-/static
+static/
 .DS_Store
 ocr/
 *.pyc

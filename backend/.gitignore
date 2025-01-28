@@ -6,3 +6,8 @@ ocr/
 __pycache__/
 .gitignore
 
+.vercel
+ocr/
+src/__pycache__
+.vercelignore
+vercel.json

@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
 import ImageUploader from "./components/ImageUploader";
-import Loading from "./components/Loading";
 import ResultDisplay from "./components/ResultDisplay";
 
 function App() {
@@ -10,28 +9,31 @@ function App() {
 
   const handleImageUpload = async (files, includeDetails) => {
     setLoading(true);
+    setResult(null); // Clear previous result on new upload
 
     const formData = new FormData();
-    files.forEach((file) => formData.append("images", file)); // react-dropzone ensures this is an array
+    files.forEach((file) => formData.append("images", file));
     formData.append("includeDetails", includeDetails);
 
     try {
       const response = await axios.post("http://localhost:4000/api/food-data", formData, {
         headers: { "Content-Type": "multipart/form-data" },
       });
-      typeof response.data === "string" ? setResult(JSON.parse(response.data)) : setResult(response.data);
+
+      setResult(response.data); // Store backend response for display
     } catch (error) {
-      console.error("Error:", error);
+      console.error("Error uploading images:", error);
+      alert("Error processing images. Please try again.");
     } finally {
       setLoading(false);
     }
   };
 
   return (
-    <div className="container mx-auto p-4 ">
-      <h1 className="text-3xl font-bold mb-4">FoodAI Image Processing</h1>
+    <div className="container mx-auto p-4">
+      <h1 className="text-3xl font-bold mb-4 text-red-300">Image Uploader</h1>
       <ImageUploader onImageUpload={handleImageUpload} />
-      {loading && <Loading />}
+      {loading && <p className="text-blue-500">Uploading and processing...</p>}
       {result && <ResultDisplay result={result} />}
     </div>
   );

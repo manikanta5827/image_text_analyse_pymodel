@@ -1,1 +1,114 @@
-"{\"categories\": [\"SEA FOOD\", \"VEGETARIAN DISHES\", \"MUTTON\", \"TANDOOR\", \"NOODLES\", \"EGG\"], \"items\": [{\"name\": \"Dhal\", \"category\": \"VEGETARIAN DISHES\", \"description\": \"A hearty and flavorful lentil dish, often served with rice or naan. Its rich, earthy taste is comforting and satisfying.\", \"price\": null, \"diet\": \"veg\", \"ingredients\": [\"lentils\", \"spices\", \"onions\", \"garlic\"], \"nutrition\": {\"fats\": \"2g\", \"proteins\": \"10g\", \"carbs\": \"25g\", \"calories\": \"150\"}, \"spiceLevel\": \"medium\"}, {\"name\": \"Fish\", \"category\": \"SEA FOOD\", \"description\": \"Fresh fish, prepared in various ways, often seasoned and cooked with a delightful flavor.\", \"price\": null, \"diet\": \"Non-veg\", \"ingredients\": [\"fish\", \"spices\", \"onions\"], \"nutrition\": {\"fats\": \"5g\", \"proteins\": \"20g\", \"carbs\": \"2g\", \"calories\": \"180\"}, \"spiceLevel\": \"low\"}, {\"name\": \"Mix Curry\", \"category\": \"VEGETARIAN DISHES\", \"description\": \"A flavorful medley of vegetables cooked in a rich curry sauce, showcasing the harmonious blend of spices.\", \"price\": null, \"diet\": \"veg\", \"ingredients\": [\"mixed vegetables\", \"spices\", \"onions\", \"garlic\"], \"nutrition\": {\"fats\": \"3g\", \"proteins\": \"6g\", \"carbs\": \"20g\", \"calories\": \"120\"}, \"spiceLevel\": \"medium\"}, {\"name\": \"Chilly Aloo Dobi Masala\", \"category\": \"VEGETARIAN DISHES\", \"description\": \"A spicy and flavorful potato dish cooked in a rich masala sauce, offering a tantalizing blend of flavors and textures.\", \"price\": null, \"diet\": \"veg\", \"ingredients\": [\"potatoes\", \"spices\", \"onions\", \"tomatoes\"], \"nutrition\": {\"fats\": \"2g\", \"proteins\": \"4g\", \"carbs\": \"25g\", \"calories\": \"170\"}, \"spiceLevel\": \"high\"}, {\"name\": \"Prawn pepper fry\", \"category\": \"SEA FOOD\", \"description\": \"Crispy and flavorful prawns prepared in a spicy pepper sauce, offering a tantalizing blend of tastes.\", \"price\": null, \"diet\": \"Non-veg\", \"ingredients\": [\"prawns\", \"peppers\", \"spices\"], \"nutrition\": {\"fats\": \"10g\", \"proteins\": \"22g\", \"carbs\": \"3g\", \"calories\": \"250\"}, \"spiceLevel\": \"medium\"}, {\"name\": \"Chenna Masala\", \"category\": \"VEGETARIAN DISHES\", \"description\": \"A creamy and flavorful dish made with paneer, cooked in a rich tomato-based gravy, offering a delightful blend of tastes.\", \"price\": null, \"diet\": \"veg\", \"ingredients\": [\"paneer\", \"tomatoes\", \"spices\", \"cream\"], \"nutrition\": {\"fats\": \"7g\", \"proteins\": \"15g\", \"carbs\": \"10g\", \"calories\": \"200\"}, \"spiceLevel\": \"low\"}, {\"name\": \"Prawn curry\", \"category\": \"SEA FOOD\", \"description\": \"A rich and aromatic curry made with prawns, offering a satisfying blend of tastes.\", \"price\": \"10000\", \"diet\": \"Non-veg\", \"ingredients\": [\"prawns\", \"onions\", \"spices\", \"tomatoes\"], \"nutrition\": {\"fats\": \"8g\", \"proteins\": \"20g\", \"carbs\": \"5g\", \"calories\": \"220\"}, \"spiceLevel\": \"medium\"}, {\"name\": \"Kadi Vegetable\", \"category\": \"VEGETARIAN DISHES\", \"description\": \"A flavorful and creamy vegetable curry made with a blend of spices and vegetables, often served with rice or naan.\", \"price\": null, \"diet\": \"veg\", \"ingredients\": [\"mixed vegetables\", \"spices\", \"yogurt\"], \"nutrition\": {\"fats\": \"4g\", \"proteins\": \"5g\", \"carbs\": \"18g\", \"calories\": \"140\"}, \"spiceLevel\": \"low\"}, {\"name\": \"Chilly prawn\", \"category\": \"SEA FOOD\", \"description\": \"A flavorful and spicy prawn dish cooked in a fiery sauce, offering a satisfying blend of tastes.\", \"price\": \"10000\", \"diet\": \"Non-veg\", \"ingredients\": [\"prawns\", \"chilies\", \"spices\"], \"nutrition\": {\"fats\": \"9g\", \"proteins\": \"22g\", \"carbs\": \"4g\", \"calories\": \"240\"}, \"spiceLevel\": \"high\"}, {\"name\": \"Kadi Kolapuri\", \"category\": \"VEGETARIAN DISHES\", \"description\": \"A creamy and flavorful vegetable curry, featuring a blend of spices and vegetables, often served with rice or roti.\", \"price\": null, \"diet\": \"veg\", \"ingredients\": [\"mixed vegetables\", \"spices\", \"yogurt\"], \"nutrition\": {\"fats\": \"5g\", \"proteins\": \"6g\", \"carbs\": \"15g\", \"calories\": \"160\"}, \"spiceLevel\": \"medium\"}, {\"name\": \"Malai Kuftha Curry\", \"category\": \"MUTTON\", \"description\": \"A creamy and flavorful mutton curry, featuring meatballs in a rich and aromatic sauce.\", \"price\": \"10000\", \"diet\": \"Non-veg\", \"ingredients\": [\"mutton\", \"spices\", \"cream\", \"potatoes\"], \"nutrition\": {\"fats\": \"12g\", \"proteins\": \"25g\", \"carbs\": \"8g\", \"calories\": \"280\"}, \"spiceLevel\": \"medium\"}, {\"name\": \"Mutton pepper fry\", \"category\": \"MUTTON\", \"description\": \"A flavorful and spicy mutton dish, cooked in a blend of peppers and spices, offering a satisfying blend of tastes.\", \"price\": null, \"diet\": \"Non-veg\", \"ingredients\": [\"mutton\", \"peppers\", \"spices\"], \"nutrition\": {\"fats\": \"10g\", \"proteins\": \"28g\", \"carbs\": \"2g\", \"calories\": \"280\"}, \"spiceLevel\": \"medium\"}, {\"name\": \"Paneer Butter Masala\", \"category\": \"VEGETARIAN DISHES\", \"description\": \"A creamy and flavorful dish, cooked with paneer and a rich tomato-based gravy. Offering a delightful blend of tastes.\", \"price\": null, \"diet\": \"veg\", \"ingredients\": [\"paneer\", \"tomatoes\", \"spices\", \"butter\"], \"nutrition\": {\"fats\": \"6g\", \"proteins\": \"12g\", \"carbs\": \"18g\", \"calories\": \"190\"}, \"spiceLevel\": \"medium\"}, {\"name\": \"Mutton Mohali\", \"category\": \"MUTTON\", \"description\": \"A flavorful and spicy mutton curry, prepared with a blend of spices and vegetables, offering a delightful blend of tastes.\", \"price\": null, \"diet\": \"Non-veg\", \"ingredients\": [\"mutton\", \"spices\", \"vegetables\"], \"nutrition\": {\"fats\": \"11g\", \"proteins\": \"24g\", \"carbs\": \"5g\", \"calories\": \"270\"}, \"spiceLevel\": \"medium\"}, {\"name\": \"Mutton Rogan\", \"category\": \"MUTTON\", \"description\": \"A rich and aromatic lamb dish with a thick gravy, featuring a blend of spices and tomatoes.\", \"price\": \"10000\", \"diet\": \"Non-veg\", \"ingredients\": [\"mutton\", \"onions\", \"spices\", \"tomatoes\"], \"nutrition\": {\"fats\": \"10g\", \"proteins\": \"25g\", \"carbs\": \"7g\", \"calories\": \"290\"}, \"spiceLevel\": \"medium\"}, {\"name\": \"Naan\", \"category\": \"TANDOOR\", \"description\": \"A fluffy and flavorful Indian flatbread, often served with various curries.\", \"price\": \"10000\", \"diet\": \"veg\", \"ingredients\": [\"flour\", \"yogurt\", \"butter\", \"yeast\"], \"nutrition\": {\"fats\": \"5g\", \"proteins\": \"3g\", \"carbs\": \"30g\", \"calories\": \"160\"}, \"spiceLevel\": \"null\"}, {\"name\": \"Mutton Biryani\", \"category\": \"MUTTON\", \"description\": \"A flavorful and aromatic rice dish made with lamb, mixed spices, and other aromatic ingredients.\", \"price\": \"10000\", \"diet\": \"Non-veg\", \"ingredients\": [\"mutton\", \"rice\", \"spices\", \"onions\"], \"nutrition\": {\"fats\": \"8g\", \"proteins\": \"20g\", \"carbs\": \"40g\", \"calories\": \"300\"}, \"spiceLevel\": \"medium\"}, {\"name\": \"Kulcha\", \"category\": \"TANDOOR\", \"description\": \"A leavened Indian flatbread, baked in a tandoor oven, often served with various fillings or as a side dish.\", \"price\": \"10000\", \"diet\": \"veg\", \"ingredients\": [\"whole wheat flour\", \"yogurt\", \"butter\", \"yeast\"], \"nutrition\": {\"fats\": \"4g\", \"proteins\": \"2g\", \"carbs\": \"25g\", \"calories\": \"120\"}, \"spiceLevel\": \"null\"}, {\"name\": \"Chicken Noodles\", \"category\": \"NOODLES\", \"description\": \"A savory dish featuring noodles with chicken and various sauces. A popular choice for a quick and fulfilling meal.\", \"price\": null, \"diet\": \"Non-veg\", \"ingredients\": [\"noodles\", \"chicken\", \"spices\"], \"nutrition\": {\"fats\": \"6g\", \"proteins\": \"18g\", \"carbs\": \"28g\", \"calories\": \"250\"}, \"spiceLevel\": \"medium\"}, {\"name\": \"Chicken Tikka\", \"category\": \"TANDOOR\", \"description\": \"Marinated and grilled chicken pieces, marinated in yogurt and spices, often served with various accompaniments.\", \"price\": null, \"diet\": \"Non-veg\", \"ingredients\": [\"chicken\", \"yogurt\", \"spices\"], \"nutrition\": {\"fats\": \"7g\", \"proteins\": \"25g\", \"carbs\": \"3g\", \"calories\": \"200\"}, \"spiceLevel\": \"medium\"}, {\"name\": \"Paneer Tikka\", \"category\": \"TANDOOR\", \"description\": \"Marinated and grilled paneer cubes, marinated in yogurt and spices. A delightful choice for a savory and flavorful meal.\", \"price\": null, \"diet\": \"veg\", \"ingredients\": [\"paneer\", \"yogurt\", \"spices\"], \"nutrition\": {\"fats\": \"5g\", \"proteins\": \"10g\", \"carbs\": \"10g\", \"calories\": \"180\"}, \"spiceLevel\": \"low\"}, {\"name\": \"Mix Noodles\", \"category\": \"NOODLES\", \"description\": \"A combination of noodles with various vegetables or meats and sauces. A popular choice for a quick and filling meal.\", \"price\": null, \"diet\": \"veg\", \"ingredients\": [\"noodles\", \"vegetables\", \"spices\"], \"nutrition\": {\"fats\": \"4g\", \"proteins\": \"6g\", \"carbs\": \"20g\", \"calories\": \"150\"}, \"spiceLevel\": \"medium\"}, {\"name\": \"Reshmi Kabab\", \"category\": \"TANDOOR\", \"description\": \"Tender and flavorful kabobs made with minced meat, marinated in yogurt and spices, grilled to perfection.\", \"price\": \"10000\", \"diet\": \"Non-veg\", \"ingredients\": [\"meat\", \"yogurt\", \"spices\"], \"nutrition\": {\"fats\": \"9g\", \"proteins\": \"22g\", \"carbs\": \"2g\", \"calories\": \"240\"}, \"spiceLevel\": \"medium\"}, {\"name\": \"Alu Paratha\", \"category\": \"TANDOOR\", \"description\": \"A flavorful and savory Indian flatbread stuffed with potatoes and spices, offering a delicious blend of flavors.\", \"price\": \"10000\", \"diet\": \"veg\", \"ingredients\": [\"potatoes\", \"whole wheat flour\", \"spices\"], \"nutrition\": {\"fats\": \"6g\", \"proteins\": \"4g\", \"carbs\": \"28g\", \"calories\": \"180\"}, \"spiceLevel\": \"low\"}, {\"name\": \"Tandoor Egg\", \"category\": \"EGG\", \"description\": \"Grilled or baked eggs, often seasoned with various spices. A simple yet flavorful way to enjoy eggs.\", \"price\": null, \"diet\": \"Non-veg\", \"ingredients\": [\"eggs\", \"spices\"], \"nutrition\": {\"fats\": \"5g\", \"proteins\": \"12g\", \"carbs\": \"1g\", \"calories\": \"100\"}, \"spiceLevel\": \"low\"}, {\"name\": \"Omelet\", \"category\": \"EGG\", \"description\": \"A simple and versatile dish made by whisking eggs and cooking them in a pan with various additions.\", \"price\": null, \"diet\": \"Non-veg\", \"ingredients\": [\"eggs\", \"milk\", \"cheese\"], \"nutrition\": {\"fats\": \"3g\", \"proteins\": \"8g\", \"carbs\": \"2g\", \"calories\": \"80\"}, \"spiceLevel\": \"null\"}, {\"name\": \"Barotta\", \"category\": \"EGG\", \"description\": \"A type of Indian flatbread, often served as a side dish or with various curries.\", \"price\": null, \"diet\": \"veg\", \"ingredients\": [\"flour\", \"water\"], \"nutrition\": {\"fats\": \"1g\", \"proteins\": \"2g\", \"carbs\": \"20g\", \"calories\": \"90\"}, \"spiceLevel\": \"null\"}, {\"name\": \"Chappaty\", \"category\": \"EGG\", \"description\": \"A simple Indian flatbread made from whole wheat flour, often served with various curries.\", \"price\": \"10000\", \"diet\": \"veg\", \"ingredients\": [\"whole wheat flour\", \"water\"], \"nutrition\": {\"fats\": \"2g\", \"proteins\": \"3g\", \"carbs\": \"22g\", \"calories\": \"110\"}, \"spiceLevel\": \"null\"}, {\"name\": \"Masala Omelet\", \"category\": \"EGG\", \"description\": \"An omelet with various spices and seasonings, providing a flavorful and tasty dish.\", \"price\": null, \"diet\": \"Non-veg\", \"ingredients\": [\"eggs\", \"spices\"], \"nutrition\": {\"fats\": \"4g\", \"proteins\": \"7g\", \"carbs\": \"1g\", \"calories\": \"70\"}, \"spiceLevel\": \"low\"}, {\"name\": \"Podimas Curry\", \"category\": \"EGG\", \"description\": \"A spice-infused curry with a variety of spices, adding depth and flavor to the dish.\", \"price\": null, \"diet\": \"veg\", \"ingredients\": [\"vegetables\", \"spices\"], \"nutrition\": {\"fats\": \"3g\", \"proteins\": \"6g\", \"carbs\": \"15g\", \"calories\": \"100\"}, \"spiceLevel\": \"medium\"}, {\"name\": \"Fry\", \"category\": \"Uncategorized\", \"description\": \"A general term for fried foods, often seasoned or spiced.\", \"price\": null, \"diet\": \"null\", \"ingredients\": [\"food item\", \"oil/fat\"], \"nutrition\": {\"fats\": \"5g\", \"proteins\": \"5g\", \"carbs\": \"10g\", \"calories\": \"100\"}, \"spiceLevel\": \"null\"}, {\"name\": \"Veg Josh\", \"category\": \"VEGETARIAN DISHES\", \"description\": \"A flavorful and spicy vegetable curry, often prepared with a blend of spices and vegetables. Offering a satisfying blend of tastes.\", \"price\": null, \"diet\": \"veg\", \"ingredients\": [\"vegetables\", \"spices\"], \"nutrition\": {\"fats\": \"3g\", \"proteins\": \"5g\", \"carbs\": \"10g\", \"calories\": \"90\"}, \"spiceLevel\": \"medium\"}, {\"name\": \"Veg Leg\", \"category\": \"Uncategorized\", \"description\": \"Unclear item, possibly referring to a vegetable dish.\", \"price\": null, \"diet\": \"veg\", \"ingredients\": [\"vegetables\"], \"nutrition\": {\"fats\": \"2g\", \"proteins\": \"4g\", \"carbs\": \"8g\", \"calories\": \"70\"}, \"spiceLevel\": \"null\"}, {\"name\": \"Egg\", \"category\": \"EGG\", \"description\": \"A simple, versatile protein source, often cooked in various ways.\", \"price\": null, \"diet\": \"Non-veg\", \"ingredients\": [\"eggs\"], \"nutrition\": {\"fats\": \"5g\", \"proteins\": \"6g\", \"carbs\": \"1g\", \"calories\": \"70\"}, \"spiceLevel\": \"null\"}]}"
+{
+    "categories": [
+        "MAIN COURSE",
+        "APPETIZERS",
+        "BEVERAGES"
+    ],
+    "items": [
+        {
+            "name": "Cheeseburger",
+            "category": "MAIN COURSE",
+            "description": "A juicy cheeseburger, a classic American dish.  Melted cheese and savory beef patties, with a delicious taste that everyone will enjoy.",
+            "price": 34,
+            "diet": "Non-veg"
+        },
+        {
+            "name": "Cheese sandwich",
+            "category": "MAIN COURSE",
+            "description": "A simple but satisfying cheese sandwich.  A perfect blend of flavors from the soft cheese and the bread.",
+            "price": 22,
+            "diet": "veg"
+        },
+        {
+            "name": "Chicken burgers",
+            "category": "MAIN COURSE",
+            "description": "Crispy chicken patties between soft buns, providing a perfect combination of flavors and textures.",
+            "price": 23,
+            "diet": "Non-veg"
+        },
+        {
+            "name": "Spicy chicken",
+            "category": "MAIN COURSE",
+            "description": "A spicy chicken dish featuring flavorful chicken cooked with a tantalizing blend of spices.",
+            "price": 33,
+            "diet": "Non-veg"
+        },
+        {
+            "name": "Hot dog",
+            "category": "MAIN COURSE",
+            "description": "A classic hot dog, featuring savory sausages in a soft bun.  A great choice for a quick and satisfying meal.",
+            "price": 24,
+            "diet": "Non-veg"
+        },
+        {
+            "name": "Fruit Salad",
+            "category": "APPETIZERS",
+            "description": "A refreshing fruit salad with a variety of fresh fruits, offering a delightful taste and a burst of natural sweetness.",
+            "price": 13,
+            "diet": "veg"
+        },
+        {
+            "name": "Cocktails",
+            "category": "APPETIZERS",
+            "description": "A collection of delightful cocktails featuring various ingredients and flavors.",
+            "price": 12,
+            "diet": "Non-veg"
+        },
+        {
+            "name": "Nuggets",
+            "category": "APPETIZERS",
+            "description": "Crispy and flavorful chicken nuggets, perfect for an appetizer or a quick meal.",
+            "price": 14,
+            "diet": "Non-veg"
+        },
+        {
+            "name": "Sandwich",
+            "category": "APPETIZERS",
+            "description": "A classic sandwich with various fillings, satisfying the taste buds with a wide array of flavors.",
+            "price": 13,
+            "diet": "veg"
+        },
+        {
+            "name": "French Fries",
+            "category": "APPETIZERS",
+            "description": "Crispy french fries, a delicious and satisfying side dish.",
+            "price": 15,
+            "diet": "veg"
+        },
+        {
+            "name": "Milk Shake",
+            "category": "BEVERAGES",
+            "description": "A refreshing and creamy milk shake, a delightful choice for a cold beverage.",
+            "price": 3,
+            "diet": "veg"
+        },
+        {
+            "name": "Iced Tea",
+            "category": "BEVERAGES",
+            "description": "A refreshing iced tea, a perfect beverage on a hot day.",
+            "price": 2,
+            "diet": "veg"
+        },
+        {
+            "name": "Orange Juice",
+            "category": "BEVERAGES",
+            "description": "A glass of refreshing orange juice, a source of Vitamin C and natural sweetness.",
+            "price": 4,
+            "diet": "veg"
+        },
+        {
+            "name": "Lemon Tea",
+            "category": "BEVERAGES",
+            "description": "A refreshing lemon tea, offering a blend of citrusy and warm flavors.",
+            "price": 3,
+            "diet": "veg"
+        },
+        {
+            "name": "Coffee",
+            "category": "BEVERAGES",
+            "description": "A rich and flavorful cup of coffee, a classic morning beverage.",
+            "price": 5,
+            "diet": "veg"
+        }
+    ]
+}

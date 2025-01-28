@@ -1,86 +1,82 @@
-import React, { useState, useEffect } from "react";
-import { useDropzone } from "react-dropzone";
+import React, { useState } from "react";
+import DropzoneUploader from "../helper/DropzoneUploader";
+import WebcamCapture from "../helper/WebcamCapture";
 
 const ImageUploader = ({ onImageUpload }) => {
   const [includeDetails, setIncludeDetails] = useState(false);
-  const [files, setFiles] = useState([]);
+  const [uploadedFiles, setUploadedFiles] = useState([]);
 
-  const { getRootProps, getInputProps } = useDropzone({
-    accept: ".jpg,.jpeg,.png,.webp",
-    multiple: true,
-    maxFiles: 10,
-    onDrop: (acceptedFiles) => {
-      // Validate each file before adding to the list
-      const validFiles = acceptedFiles.filter((file) =>
-        /\.(jpg|jpeg|png|gif)$/i.test(file.name)
-      );
-
-      if (validFiles.length !== acceptedFiles.length) {
-        alert("Some files were skipped due to invalid file extensions.");
-      }
-
-      setFiles(validFiles);
-    },
-  });
-
-  const handleSubmit = () => {
-    if (files.length > 0) {
-      onImageUpload(files, includeDetails);
-    } else {
-      alert("Please select at least one image.");
-    }
+  const handleDropzoneUpload = (files) => {
+    const updatedFiles = files.map((file, index) => ({
+      file,
+      name: `dropzone_image_${uploadedFiles.length + index + 1}.png`,
+    }));
+    setUploadedFiles((prev) => [...prev, ...updatedFiles]);
   };
 
-  // Effect to listen for 'Enter' key press
-  useEffect(() => {
-    const handleKeyPress = (e) => {
-      if (e.key === "Enter") {
-        handleSubmit();
-      }
-    };
+  const handleWebcamUpload = (file) => {
+    setUploadedFiles((prev) => [
+      ...prev,
+      { file, name: file.name },
+    ]);
+  };
 
-    window.addEventListener("keydown", handleKeyPress);
+  const handleDeleteImage = (index) => {
+    setUploadedFiles((prev) => prev.filter((_, i) => i !== index));
+  };
 
-    // Clean up the event listener when the component unmounts
-    return () => {
-      window.removeEventListener("keydown", handleKeyPress);
-    };
-  }, [files, includeDetails]); // Dependencies to reattach event listener when files or includeDetails change
+  const handleUploadAll = () => {
+    if (uploadedFiles.length === 0) {
+      alert("No images selected for upload.");
+      return;
+    }
+    onImageUpload(uploadedFiles.map((item) => item.file), includeDetails);
+  };
 
   return (
     <div>
-      <div
-        {...getRootProps()}
-        className="border-dashed border-2 border-gray-300 p-4 text-center cursor-pointer"
+      <h2 className="text-lg font-bold mb-2">Upload from Device</h2>
+      <DropzoneUploader onUpload={handleDropzoneUpload} />
+
+      <h2 className="text-lg font-bold mt-4 mb-2">Capture from Webcam</h2>
+      <WebcamCapture onCapture={handleWebcamUpload} />
+
+      <label className="flex items-center space-x-2 mt-4">
+        <input
+          type="checkbox"
+          checked={includeDetails}
+          onChange={(e) => setIncludeDetails(e.target.checked)}
+        />
+        <span>Include Details</span>
+      </label>
+
+      <h2 className="text-lg font-bold mt-4">Selected Images</h2>
+      <div className="mt-2 grid grid-cols-8 gap-4">
+        {uploadedFiles.map((item, index) => (
+          <div key={index} className="bg-gray-300 p-2 rounded shadow">
+            <img
+              src={URL.createObjectURL(item.file)}
+              alt={item.name}
+              className="w-40 h-40 object-cover"
+            />
+            <p className="text-sm mt-1">{item.name}</p>
+            <button
+              className="bg-red-500 text-white text-xs px-2 py-1 rounded mt-1"
+              onClick={() => handleDeleteImage(index)}
+            >
+              Delete
+            </button>
+          </div>
+        ))}
+      </div>
+
+      {/* Upload All Images Button */}
+      <button
+        className="bg-green-500 text-white px-4 py-2 mt-4 rounded w-full"
+        onClick={handleUploadAll}
       >
-        <input {...getInputProps()} />
-        <p>Drag & drop images here, or click to select files</p>
-      </div>
-      {files.length > 0 && (
-        <ul className="mt-2">
-          {files.map((file, idx) => (
-            <li key={idx} className="text-sm">
-              {file.name}
-            </li>
-          ))}
-        </ul>
-      )}
-      <div className="mt-4">
-        <label className="flex items-center space-x-2">
-          <input
-            type="checkbox"
-            checked={includeDetails}
-            onChange={(e) => setIncludeDetails(e.target.checked)}
-          />
-          <span>Include Details</span>
-        </label>
-        <button
-          onClick={handleSubmit}
-          className="bg-blue-500 text-white px-4 py-2 mt-4 rounded"
-        >
-          Upload
-        </button>
-      </div>
+        Upload All Images
+      </button>
     </div>
   );
 };

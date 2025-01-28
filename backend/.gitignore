@@ -1,7 +1,8 @@
 .env
 /static
 .DS_Store
-.venv/
+ocr/
 *.pyc
 __pycache__/
 .gitignore
+
